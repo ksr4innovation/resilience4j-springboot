@@ -36,6 +36,7 @@ resilience4j:
  In this example, the circuit breaker aspect is the first entry point. So all retry attempts would consider as a single attempt for the circuit breaker computation. 
  
  esilience4j.circuitbreaker:
+ 
     circuit-breaker-aspect-order: 4
     instances:
         getEmploye:
