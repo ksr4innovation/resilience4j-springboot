@@ -6,9 +6,10 @@
  In this example, the retry aspect is the first entry point. So each retry attempt would consider for the circuit breaker computation.  
  
  esilience4j.circuitbreaker:
-    circuit-breaker-aspect-order: 2
-    instances:
-        getEmploye:
+	
+    circuit-breaker-aspect-order: 2	
+    instances:	
+        getEmploye:		
             registerHealthIndicator: true
             slidingWindowSize: 10
             permittedNumberOfCallsInHalfOpenState: 5
