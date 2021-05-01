@@ -24,6 +24,7 @@
         
 resilience4j:
   retry:
+  
     retry-aspect-order: 4
     instances:
         getEmployetretry:
@@ -54,6 +55,7 @@ resilience4j:
         
 resilience4j:
   retry:
+  
     retry-aspect-order: 2
     instances:
         getEmployetretry:
