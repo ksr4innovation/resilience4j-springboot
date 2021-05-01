@@ -1,6 +1,5 @@
 
-# This repository pertains to the blow demos:
-
+# Resilience4j Aspect Order demo's
 # Defualt aspect order in Resilience4j retry (curcuitbraker (target)).
 
  In this example, the retry aspect is the first entry point. So each retry attempt would consider for the circuit breaker computation.  
